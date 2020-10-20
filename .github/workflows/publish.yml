@@ -17,7 +17,7 @@ jobs:
 
       - name: Publish HTML to GitHub Pages
         if: success()
-        uses: peaceiris/actions-gh-pages@a2d0650
+        uses: peaceiris/actions-gh-pages@39fbbb0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
